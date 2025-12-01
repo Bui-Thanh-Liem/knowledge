@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "node --watch src/index.js"
+  },
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "redis": "^5.10.0"
+  }
+}
