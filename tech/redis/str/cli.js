@@ -5,7 +5,7 @@
  *
  * set key value PX milliseconds
  *
- * set key value NX PX milliseconds
+ * set key value NX PX milliseconds => chỉ set khi key chưa tồn tại
  *
  * set key value EX seconds
  *
@@ -28,8 +28,4 @@
  * decrby key decrement
  *
  * keys pattern
- *
- * expire key seconds
- *
- * ttl key
  */
